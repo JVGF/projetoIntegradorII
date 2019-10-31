@@ -1,4 +1,3 @@
 class Estacionamento < ApplicationRecord
-has_one :vaga
-has_one :veiculo
+has_many :vaga
 end
